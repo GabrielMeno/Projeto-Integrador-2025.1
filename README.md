@@ -1,5 +1,3 @@
-Com base nas informações extraídas do seu documento PDF, aqui está um modelo de README estruturado para o repositório do projeto de sistema para a **Auto Socorro Lazzaretti**, no mesmo estilo do exemplo que você forneceu:
-
 ---
 
 # Projeto Integrador – Sistema para Gestão de Auto Socorro
