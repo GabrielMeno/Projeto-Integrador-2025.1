@@ -30,13 +30,13 @@ A empresa atua no atendimento a veículos em situação de emergência, pane ou 
 O projeto foi desenvolvido utilizando as seguintes tecnologias e ferramentas:
 
 * **Linguagem de Programação:**
-  *
+  
 
 * **Banco de Dados:**
-  *
+  
 
 * **Frameworks e Bibliotecas/Dependências:**
-  *
+  
 
 ---
 
