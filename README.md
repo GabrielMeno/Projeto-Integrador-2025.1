@@ -50,8 +50,8 @@ A documentação completa do projeto, incluindo os requisitos funcionais, descri
 
 Este projeto foi desenvolvido pelos alunos:
 
-* **Alexsandro Lazzaretti**
-* **Gabriel Henrique Menoncin**
+* **Alexsandro Lazzaretti - 2121101017**
+* **Gabriel Henrique Menoncin - 2121101065**
 
 Curso de Ciência da Computação – Universidade Federal da Fronteira Sul – Campus Chapecó
 
