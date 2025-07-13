@@ -42,7 +42,7 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias e ferramentas:
 
 ## 📁 Documentação
 
-A documentação completa do projeto, incluindo os requisitos funcionais, descrição da empresa, problemas enfrentados e as funcionalidades esperadas, encontra-se neste repositório.
+A documentação completa do projeto, incluindo os requisitos funcionais, descrição da empresa, problemas enfrentados e as funcionalidades esperadas, encontra-se neste repositório
 
 ---
 
