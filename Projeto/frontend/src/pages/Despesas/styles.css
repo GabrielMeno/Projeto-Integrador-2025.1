@@ -1,0 +1,35 @@
+.servicos-container {
+  padding: 32px;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  margin-left: 99px;
+}
+.servicos-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+  max-width: 1400px;
+  min-width: 900px;
+  width: 100%;
+  margin-left: -32px;
+  margin-right: auto;
+  padding: 0 32px;
+}
+.novo-servico-btn {
+  background: #229645;
+  color: #fff;
+  border: none;
+  padding: 10px 24px;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background 0.2s;
+  margin-right: 0;
+}
+.novo-servico-btn:hover {
+  background: #176c2a;
+}

@@ -1,0 +1,236 @@
+.servicos-container {
+  padding: 32px;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  margin-left: 99px;
+}
+
+ .servicos-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+  max-width: 1400px;
+  min-width: 900px;
+  width: 100%;
+  margin-left: -32px;
+  margin-right: auto;
+  padding: 0 32px;
+}
+
+.novo-servico-btn {
+  background: #229645;
+  color: #fff;
+  border: none;
+  padding: 10px 24px;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background 0.2s;
+  margin-right: 0;
+}
+
+.novo-servico-btn:hover {
+  background: #176c2a;
+}
+
+.filtro-status-container {
+  margin-bottom: 16px;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.filtro-status-select {
+  min-width: 180px;
+  margin-left: auto;
+  border-radius: 999px;
+  padding: 8px 20px;
+  border: 1px solid #ccc;
+  background: #fff;
+  outline: none;
+  font-size: 16px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.04);
+}
+
+.modal-servico-backdrop {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0,0,0,0.35);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.modal-servico {
+  background: #fff;
+  padding: 32px 24px;
+  border-radius: 12px;
+  min-width: 320px;
+  box-shadow: 0 4px 32px rgba(0,0,0,0.18);
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.modal-servico h3 {
+  margin-top: 0;
+  color: #229645;
+}
+
+.modal-servico label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 12px;
+  color: #1d7c38;
+  font-weight: bold;
+}
+
+.modal-servico .novo-servico-btn {
+  display: block;
+  margin: 16px auto 0 auto;
+}
+
+.modal-servico input {
+  margin-top: 6px;
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #a9cfa8;
+  font-size: 1rem;
+}
+
+.modal-servico-actions {
+  grid-column: 1 / span 2;
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 16px;
+}
+
+.modal-servico-actions button {
+  padding: 8px 18px;
+  border-radius: 6px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  background: #229645;
+  color: #fff;
+  transition: background 0.2s;
+}
+
+.modal-servico form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px 24px;
+}
+
+.modal-servico select {
+  margin-top: 6px;
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #a9cfa8;
+  font-size: 1rem;
+  background: #fff;
+  color: #222;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.modal-servico textarea[name="observacoes"] {
+  margin-top: 6px;
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #a9cfa8;
+  font-size: 1rem;
+  width: 100%;
+  min-width: 0;
+  max-width: 100%;
+  box-sizing: border-box;
+  grid-column: 1 / span 2; 
+  resize: none;           
+  justify-self: stretch;   
+}
+
+.modal-servico-backdrop {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0, 0, 0, 0.719); 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.modal-servico-actions button[type="button"] {
+  background: #b8c9b8;
+  color: #229645;
+}
+
+.modal-servico-actions button[type="button"]:hover {
+  background: #a9cfa8;
+}
+
+.modal-servico-actions button[type="submit"]:hover {
+  background: #176c2a;
+}
+
+.acoes-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  box-shadow: none;
+  padding: 0 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1rem;
+  line-height: 0.7;
+  color: #000;
+}
+
+.acoes-pontos span {
+  display: block;
+  font-size: 1.1rem;
+  line-height: 0.5;
+  margin: -3px 0;
+  color:#000;
+}
+
+.acoes-dropdown {
+  position: absolute;
+  top: 36px;
+  right: 0;
+  background: #fff;
+  border: 1px solid #a9cfa8;
+  border-radius: 8px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+  display: flex;
+  flex-direction: column;
+  min-width: 120px;
+  z-index: 1050;
+}
+
+.acoes-dropdown button {
+  background: none; 
+  border: none;
+  color: #229645;
+  padding: 10px 16px;
+  text-align: left;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.acoes-dropdown button:hover {
+  background: #a9cfa8;
+  color: #176c2a;
+}

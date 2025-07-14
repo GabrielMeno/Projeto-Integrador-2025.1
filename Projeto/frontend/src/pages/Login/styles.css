@@ -1,0 +1,162 @@
+/* Responsivo: login ocupa toda a largura no mobile */
+.container-login {
+  display: flex;
+  height: 100vh;
+  font-family: sans-serif;
+}
+
+@media (max-width: 700px) {
+  .container-login {
+    flex-direction: column;
+    height: auto;
+    min-height: 100vh;
+  }
+  .left-side, .right-side {
+    flex: none;
+    width: 100vw;
+    min-width: 0;
+    max-width: 100vw;
+    padding: 0;
+  }
+  .login-content {
+    width: 96vw;
+    min-width: 0;
+    max-width: 99vw;
+    margin: 0 auto;
+  }
+  .user-icon {
+    width: 120px;
+    height: 80px;
+  }
+  .background-image {
+    height: 120px;
+    object-fit: cover;
+  }
+  .logo {
+    width: 80px;
+    top: 8px;
+    right: 8px;
+  }
+}
+
+.left-side {
+  flex: 1;
+  background-color: #d7eeda;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.login-content {
+  width: 300px;
+  text-align: center;
+}
+
+.user-icon {
+  width: 235px;
+  height: 143px;
+  margin-bottom: 20px;
+}
+
+.login-form input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: 2px solid #4caf50;
+  border-radius: 5px;
+  background-color: #a9cfa8;
+  color: black;
+  font-weight: bold;
+}
+
+.password-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.password-container input {
+  width: 100%;
+  flex: 1;
+}
+
+.toggle-password {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-40%);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  z-index: 2;
+}
+
+.toggle-password img {
+  display: block;
+  margin: 0;
+}
+
+.links {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+}
+
+.cadastrar-btn {
+  background: none;
+  border: none;
+  color: green;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.login-btn {
+  width: 100%;
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.login-erro {
+  color: red;
+  margin-top: 10px;
+}
+
+.right-side {
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+}
+
+.background-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.logo {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 120px;
+}
+
+.input-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.input-container input {
+  width: 100%;
+  flex: 1;
+}
