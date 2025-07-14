@@ -194,6 +194,5 @@ Para criar as tabelas usando a aplicação, você pode:
 - **Login**: admin
 - **Senha**: admin123
 
-### Comandos para enviar ao GitHub
 
 
